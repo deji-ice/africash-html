@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: "Clash Display", sans-serif;
+  height: 200vh;
+}
+
+nav {
+  position: fixed;
+  z-index: 200;
+  width: 90vw;
+  background-color: #fff;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 70px;
+  border-bottom: 2px solid rgb(232, 232, 232);
+}
+
+#logo {
+  height: 32px;
+}
+
+.nav-right {
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 14px;
+}
+.nav-links a {
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+}
+
+.auth-links {
+  display: flex;
+  gap: 15px;
+}
+
+.auth-links button {
+  border-radius: 30px;
+  border: 1px solid #068353;
+  padding: 10px 25px;
+  font-family: "Clash Display", sans-serif;
+}
+
+#signin {
+  background-color: white;
+  color: #068353;
+}
+#signup {
+  background-color: #068353;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.firstSection {
+  display: flex;
+  position: relative;
+  align-items: center;
+  padding-left: 70px;
+  padding-top: 40px;
+  height: 82vh;
+}
+.firstSection button {
+  background-color: #068353;
+  color: white;
+  border-radius: 30px;
+  border: 1px solid #068353;
+  padding: 10px 25px;
+  font-family: "Clash Display", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#firstImage {
+  height: 500px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  left: 40;
+  top: 100px;
+}
+
+.introParagraph{
+    font-size: 18px;
+    width: 45%;
+}
